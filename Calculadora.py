@@ -35,9 +35,9 @@ while True:
     print("Informe o  segundo valor: ")
     valor2 = input()
     print("Informe a operação (Para soma +, Para subtação -, para divisão /, para multiplicação *): ")
-    op = (input())
+    FormaDeOperacao = (input())
 
-    resultado = calcular(valor1, valor2, op)
+    resultado = calcular(valor1, valor2, FormaDeOperacao)
     if resultado == None:
         print("Os valores são invalidos")
     else:
